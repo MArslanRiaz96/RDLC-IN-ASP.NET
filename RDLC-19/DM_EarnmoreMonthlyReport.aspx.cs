@@ -24,6 +24,7 @@ namespace RDLC_19
             SqlConnection con = new SqlConnection(ConnectionString);
             using (var command = new SqlCommand("uspReportMonthlyEarnmoreRedeemed", con)
             {
+                CommandTimeout = 900,
                 CommandType = CommandType.StoredProcedure
 
             })

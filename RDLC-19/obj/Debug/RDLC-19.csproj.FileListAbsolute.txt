@@ -138,3 +138,4 @@ D:\VSProjectsTest\RDLC-19\RDLC-19\obj\Debug\RDLC-19.csproj.CoreCompileInputs.cac
 D:\VSProjectsTest\RDLC-19\RDLC-19\obj\Debug\RDLC-19.csproj.CopyComplete
 D:\VSProjectsTest\RDLC-19\RDLC-19\obj\Debug\RDLC-19.dll
 D:\VSProjectsTest\RDLC-19\RDLC-19\obj\Debug\RDLC-19.pdb
+D:\VSProjectsTest\RDLC-19\RDLC-19\obj\Debug\RDLC-19.csprojAssemblyReference.cache

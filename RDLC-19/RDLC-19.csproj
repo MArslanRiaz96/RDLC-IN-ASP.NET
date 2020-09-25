@@ -94,6 +94,7 @@
     <Content Include="Default.aspx" />
     <Content Include="DM_EarnmoreMonthlyReport.aspx" />
     <Content Include="EovendopanelSurveyRedeems.aspx" />
+    <Content Include="MainKPIPerformance.aspx" />
     <Content Include="MonthlyNewTurnover.aspx" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
@@ -147,6 +148,13 @@
     </Compile>
     <Compile Include="EovendopanelSurveyRedeems.aspx.designer.cs">
       <DependentUpon>EovendopanelSurveyRedeems.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainKPIPerformance.aspx.cs">
+      <DependentUpon>MainKPIPerformance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainKPIPerformance.aspx.designer.cs">
+      <DependentUpon>MainKPIPerformance.aspx</DependentUpon>
     </Compile>
     <Compile Include="MonthlyNewTurnover.aspx.cs">
       <DependentUpon>MonthlyNewTurnover.aspx</DependentUpon>
@@ -245,6 +253,10 @@
     <EmbeddedResource Include="Report\DM_EarnmoreMonthlyReport.rdlc" />
     <EmbeddedResource Include="Report\DM_TimeSlotData.rdlc" />
     <EmbeddedResource Include="Report\EovendopanelSurveyRedeems.rdlc" />
+    <EmbeddedResource Include="Report\MainKPIPerformance.rdlc" />
+    <EmbeddedResource Include="Report\MainKPIPerformance_Callback.rdlc" />
+    <EmbeddedResource Include="Report\MainKPIPerformance_DetailPageClick.rdlc" />
+    <EmbeddedResource Include="Report\MainKPIPerformance_TileClick.rdlc" />
     <EmbeddedResource Include="Report\MonthlyNewTurnover.rdlc" />
     <EmbeddedResource Include="Report\Report.rdlc" />
   </ItemGroup>
