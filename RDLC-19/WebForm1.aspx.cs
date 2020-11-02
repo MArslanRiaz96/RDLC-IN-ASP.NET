@@ -10,7 +10,7 @@ using System.Web.UI.WebControls;
 
 namespace RDLC_19
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class WebForm1 : System.Web.UI.Page 
     {
         string ConnectionString = @"data source=myde7j9kix.database.windows.net; initial catalog=ProdReporting; trusted_connection=false;User ID=applogin;Password=Eovendo2013;";
         protected void Page_Load(object sender, EventArgs e)
@@ -22,7 +22,9 @@ namespace RDLC_19
         }
         protected void btnClick_Click(object sender, EventArgs e)
         {
-            var reportDate = "2020-09-24";
+            ReportViewer1.Reset();
+            //  var reportDate = "2020-10-28";
+            var reportDate = TextBox1.Text.ToString();
             SqlConnection con = new SqlConnection(ConnectionString);
            
             ReportViewer1.LocalReport.DataSources.Add(new ReportDataSource("Slot1", GetTimeSlotUserStatsBySlotNo(con,reportDate,1)));
@@ -87,6 +89,8 @@ namespace RDLC_19
             ReportViewer1.LocalReport.ReportPath = Server.MapPath("~/Report/DM_TimeSlotData.rdlc");
             ReportViewer1.LocalReport.SetParameters(new ReportParameter[] { rp1 });
             ReportViewer1.LocalReport.EnableHyperlinks = true;
+
+            
 
         }
         public DataTable GetTimeSlotUserStatsBySlotNo(SqlConnection con, string reportDate, int slotNo)
