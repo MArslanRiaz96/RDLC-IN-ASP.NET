@@ -110,7 +110,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="DM_TimeSlotData.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AllDeal.Designer.cs">
@@ -175,12 +175,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>StudentDbDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="DM_TimeSlotData.aspx.cs">
+      <DependentUpon>DM_TimeSlotData.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="DM_TimeSlotData.aspx.designer.cs">
+      <DependentUpon>DM_TimeSlotData.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

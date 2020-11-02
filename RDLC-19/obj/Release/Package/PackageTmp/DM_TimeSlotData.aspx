@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="RDLC_19.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DM_TimeSlotData.aspx.cs" Inherits="RDLC_19.WebForm1" %>
 
 <%@ Register Assembly="Microsoft.ReportViewer.WebForms" Namespace="Microsoft.Reporting.WebForms" TagPrefix="rsweb" %>
 
