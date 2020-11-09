@@ -21,7 +21,7 @@ namespace RDLC_19
 
         protected void btnClick_Click(object sender, EventArgs e)
         {
-            var reportDate = "2020-10-01";
+            var reportDate = "2020-11-03";
             SqlConnection con = new SqlConnection(ConnectionString);
             using (var command = new SqlCommand("uspReportEovendopanelSurveyRedeems", con)
             {
