@@ -15999,9 +15999,10 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value />
+                                      <Value>=Sum(Fields!UserPayout.Value, "AllDeal") / Sum(Fields!TotalRevenue.Value, "AllDeal")</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
+                                        <Format>0.00%</Format>
                                       </Style>
                                     </TextRun>
                                   </TextRuns>
@@ -16020,6 +16021,7 @@
                                 <PaddingBottom>2pt</PaddingBottom>
                               </Style>
                             </Textbox>
+                            <rd:Selected>true</rd:Selected>
                           </CellContents>
                         </TablixCell>
                         <TablixCell>
